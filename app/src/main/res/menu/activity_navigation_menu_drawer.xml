@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Tela Busca" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="Cadastro" />
+        <item
+            android:id="@+id/nav_forgot_pass"
+            android:icon="@mipmap/ic_forgotpassword1"
+            android:title="Recuperar Senha" />
+    </group>
+</menu>
